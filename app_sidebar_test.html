@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+Copyright (C) 2016 paul
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE html>
+<html>    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <body>   
+        <?php require './include/app_head_01.php'; ?>
+        <?php require './include/app_menu.php'; ?>
+  
+        <br><h1 style="text-align:right;">Sidebar Testing</h1>        
+        <?php $_SESSION["app_message"] = $_SERVER['PHP_SELF'] . " from ip " . $_SERVER['REMOTE_ADDR']; ?> 
+
+        <nav class="w3-sidenav w3-light-red w3-card-2" style="width:160px;"> <a href="#">Unitaca</a>
+
+            <div class="w3-accordion">
+                <a onclick="myAccFunc()" href="#"> Medical <i class="fa fa-caret-down"> </i> </a>
+                <div id="demoAcc" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+
+            <div class="w3-accordion">
+                <a onclick="myAccFunc()" href="#"> Reports <i class="fa fa-caret-down"> </i> </a>
+                <div id="demoAcc" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+
+            <div class="w3-accordion">
+                <a onclick="myAccFunc()" href="#"> Views <i class="fa fa-caret-down"></i> </a>
+                <div id="demoDrop" class="w3-dropdown-content w3-white w3-card-4">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </div>
+     
+    <?php require './include/app_footer.php'; ?>
+    <?php msg_logfile(); ?>
+
+    </body>
+</html>
+
+
+
+

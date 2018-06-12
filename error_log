@@ -1,0 +1,104 @@
+[22-Jul-2017 21:32:42 UTC] PHP Notice:  Undefined variable: client in /home/paulhuss/public_html/unitaca/app_sys_cfg_edit.php on line 49
+[22-Jul-2017 21:32:42 UTC] PHP Notice:  Undefined variable: clientNumber in /home/paulhuss/public_html/unitaca/app_sys_cfg_edit.php on line 50
+[22-Jul-2017 21:32:42 UTC] PHP Notice:  Undefined variable: result in /home/paulhuss/public_html/unitaca/app_sys_cfg_edit.php on line 87
+[22-Jul-2017 21:32:42 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/paulhuss/public_html/unitaca/app_sys_cfg_edit.php on line 87
+[22-Jul-2017 21:32:42 UTC] PHP Notice:  Undefined variable: con in /home/paulhuss/public_html/unitaca/app_sys_cfg_edit.php on line 88
+[22-Jul-2017 21:32:42 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/paulhuss/public_html/unitaca/app_sys_cfg_edit.php on line 88
+[22-Jul-2017 21:33:07 UTC] PHP Notice:  Undefined variable: client in /home/paulhuss/public_html/unitaca/app_sys_cfg_edit.php on line 49
+[22-Jul-2017 21:33:07 UTC] PHP Notice:  Undefined variable: clientNumber in /home/paulhuss/public_html/unitaca/app_sys_cfg_edit.php on line 50
+[22-Jul-2017 21:33:07 UTC] PHP Notice:  Undefined variable: result in /home/paulhuss/public_html/unitaca/app_sys_cfg_edit.php on line 87
+[22-Jul-2017 21:33:07 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/paulhuss/public_html/unitaca/app_sys_cfg_edit.php on line 87
+[22-Jul-2017 21:33:07 UTC] PHP Notice:  Undefined variable: con in /home/paulhuss/public_html/unitaca/app_sys_cfg_edit.php on line 88
+[22-Jul-2017 21:33:07 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/paulhuss/public_html/unitaca/app_sys_cfg_edit.php on line 88
+[23-Jul-2017 17:08:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'paulhuss_paul'@'localhost' (using password: YES) in /home/paulhuss/public_html/unitaca/app_clients.php on line 46
+[23-Jul-2017 17:08:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/paulhuss/public_html/unitaca/app_clients.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/paulhuss/public_html/unitaca/app_clients.php on line 46
+[23-Jul-2017 17:09:09 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 28
+[23-Jul-2017 17:09:09 UTC] PHP Notice:  Undefined index: logfile in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 61
+[23-Jul-2017 17:09:09 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 61
+[23-Jul-2017 17:09:09 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 62
+[23-Jul-2017 17:09:09 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 63
+[23-Jul-2017 17:09:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'paulhuss_paul'@'localhost' (using password: YES) in /home/paulhuss/public_html/unitaca/app_login_verify.php on line 39
+[23-Jul-2017 17:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/paulhuss/public_html/unitaca/app_login_verify.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/paulhuss/public_html/unitaca/app_login_verify.php on line 39
+[23-Jul-2017 17:10:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'paulhuss_paul'@'localhost' (using password: YES) in /home/paulhuss/public_html/unitaca/app_connect.php on line 21
+[23-Jul-2017 17:10:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/paulhuss/public_html/unitaca/app_connect.php:21
+Stack trace:
+#0 /home/paulhuss/public_html/unitaca/app_security_detail.php(44): require()
+#1 {main}
+  thrown in /home/paulhuss/public_html/unitaca/app_connect.php on line 21
+[23-Jul-2017 17:10:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'paulhuss_paul'@'localhost' (using password: YES) in /home/paulhuss/public_html/unitaca/app_rept_client.php on line 43
+[23-Jul-2017 17:10:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/paulhuss/public_html/unitaca/app_rept_client.php on line 50
+[23-Jul-2017 17:10:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/paulhuss/public_html/unitaca/app_rept_client.php on line 56
+[23-Jul-2017 17:10:21 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/app_rept_client.php on line 30
+[23-Jul-2017 17:10:21 UTC] PHP Notice:  Undefined index: username in /home/paulhuss/public_html/unitaca/app_rept_client.php on line 32
+[23-Jul-2017 17:10:21 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/include/app_security.php on line 19
+[23-Jul-2017 17:10:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'paulhuss_paul'@'localhost' (using password: YES) in /home/paulhuss/public_html/unitaca/app_rept_client.php on line 43
+[23-Jul-2017 17:10:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/paulhuss/public_html/unitaca/app_rept_client.php on line 50
+[23-Jul-2017 17:10:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/paulhuss/public_html/unitaca/app_rept_client.php on line 56
+[23-Jul-2017 17:10:21 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 28
+[23-Jul-2017 17:10:21 UTC] PHP Notice:  Undefined index: logfile in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 61
+[23-Jul-2017 17:10:21 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 61
+[23-Jul-2017 17:10:21 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 62
+[23-Jul-2017 17:10:21 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 63
+[23-Jul-2017 17:10:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'paulhuss_paul'@'localhost' (using password: YES) in /home/paulhuss/public_html/unitaca/app_rept_accounts.php on line 34
+[23-Jul-2017 17:10:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/paulhuss/public_html/unitaca/app_rept_accounts.php on line 41
+[23-Jul-2017 17:10:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/paulhuss/public_html/unitaca/app_rept_accounts.php on line 46
+[23-Jul-2017 17:10:35 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/paulhuss/public_html/unitaca/app_rept_accounts.php on line 78
+[23-Jul-2017 17:10:37 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/include/app_security.php on line 19
+[23-Jul-2017 17:10:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'paulhuss_paul'@'localhost' (using password: YES) in /home/paulhuss/public_html/unitaca/app_rept_accounts.php on line 34
+[23-Jul-2017 17:10:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/paulhuss/public_html/unitaca/app_rept_accounts.php on line 41
+[23-Jul-2017 17:10:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/paulhuss/public_html/unitaca/app_rept_accounts.php on line 46
+[23-Jul-2017 17:10:37 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/paulhuss/public_html/unitaca/app_rept_accounts.php on line 78
+[23-Jul-2017 17:10:37 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 28
+[23-Jul-2017 17:10:37 UTC] PHP Notice:  Undefined index: logfile in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 61
+[23-Jul-2017 17:10:37 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 61
+[23-Jul-2017 17:10:37 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 62
+[23-Jul-2017 17:10:37 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 63
+[23-Jul-2017 17:10:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'paulhuss_paul'@'localhost' (using password: YES) in /home/paulhuss/public_html/unitaca/app_rept_lang.php on line 40
+[23-Jul-2017 17:10:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/paulhuss/public_html/unitaca/app_rept_lang.php on line 47
+[23-Jul-2017 17:10:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/paulhuss/public_html/unitaca/app_rept_lang.php on line 53
+[23-Jul-2017 17:10:46 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/app_rept_lang.php on line 30
+[23-Jul-2017 17:10:46 UTC] PHP Notice:  Undefined index: username in /home/paulhuss/public_html/unitaca/app_rept_lang.php on line 32
+[23-Jul-2017 17:10:46 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/include/app_security.php on line 19
+[23-Jul-2017 17:10:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'paulhuss_paul'@'localhost' (using password: YES) in /home/paulhuss/public_html/unitaca/app_rept_lang.php on line 40
+[23-Jul-2017 17:10:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/paulhuss/public_html/unitaca/app_rept_lang.php on line 47
+[23-Jul-2017 17:10:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/paulhuss/public_html/unitaca/app_rept_lang.php on line 53
+[23-Jul-2017 17:10:46 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 28
+[23-Jul-2017 17:10:46 UTC] PHP Notice:  Undefined index: logfile in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 61
+[23-Jul-2017 17:10:46 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 61
+[23-Jul-2017 17:10:46 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 62
+[23-Jul-2017 17:10:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 63
+[23-Jul-2017 17:21:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'paulhuss_paul'@'localhost' (using password: YES) in /home/paulhuss/public_html/unitaca/app_login_verify.php on line 39
+[23-Jul-2017 17:21:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/paulhuss/public_html/unitaca/app_login_verify.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/paulhuss/public_html/unitaca/app_login_verify.php on line 39
+[23-Jul-2017 19:27:16 UTC] PHP Warning:  setcookie() expects parameter 3 to be integer, string given in /home/paulhuss/public_html/unitaca/app_login_verify.php on line 60
+[23-Jul-2017 19:27:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function msg_logfile() in /home/paulhuss/public_html/unitaca/app_login_verify.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/paulhuss/public_html/unitaca/app_login_verify.php on line 62
+[23-Jul-2017 19:27:25 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/app_clients.php on line 32
+[23-Jul-2017 19:27:25 UTC] PHP Notice:  Undefined index: username in /home/paulhuss/public_html/unitaca/app_clients.php on line 34
+[23-Jul-2017 19:27:25 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/include/app_security.php on line 19
+[23-Jul-2017 19:27:25 UTC] PHP Notice:  Undefined index: logfile in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 61
+[23-Jul-2017 19:27:25 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 61
+[23-Jul-2017 19:27:25 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 62
+[23-Jul-2017 19:27:25 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 63
+[23-Jul-2017 19:29:37 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/app_clients.php on line 32
+[23-Jul-2017 19:29:37 UTC] PHP Notice:  Undefined index: username in /home/paulhuss/public_html/unitaca/app_clients.php on line 34
+[23-Jul-2017 19:29:37 UTC] PHP Notice:  Undefined index: usersecuritylevel in /home/paulhuss/public_html/unitaca/include/app_security.php on line 19
+[23-Jul-2017 19:29:37 UTC] PHP Notice:  Undefined index: logfile in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 61
+[23-Jul-2017 19:29:37 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 61
+[23-Jul-2017 19:29:37 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 62
+[23-Jul-2017 19:29:37 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/paulhuss/public_html/unitaca/include/app_footer.php on line 63
+[23-Jul-2017 19:37:46 UTC] PHP Warning:  setcookie() expects parameter 3 to be integer, string given in /home/paulhuss/public_html/unitaca/app_login_verify.php on line 60
+[23-Jul-2017 19:37:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function msg_logfile() in /home/paulhuss/public_html/unitaca/app_login_verify.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/paulhuss/public_html/unitaca/app_login_verify.php on line 62
